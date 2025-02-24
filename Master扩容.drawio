@@ -1,11 +1,112 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="tDQR-z0zNCTbBRv6Hexn">
-    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12479" dy="4429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6YVh8UrLZAbBPIo3X4cZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-9980" y="-3350" width="580" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-3" value="" style="group" vertex="1" connectable="0" parent="6YVh8UrLZAbBPIo3X4cZ-2">
+          <mxGeometry x="35" y="90" width="465" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-4" value="/one/operation&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="6YVh8UrLZAbBPIo3X4cZ-3">
+          <mxGeometry x="15" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-5" value="opscheduler&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="6YVh8UrLZAbBPIo3X4cZ-3">
+          <mxGeometry x="355" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-6" value="updateClusterState()&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="6YVh8UrLZAbBPIo3X4cZ-3">
+          <mxGeometry y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-7" value="syscTarget()&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;会更新监控配置并reload&lt;/span&gt;&lt;/div&gt;&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="6YVh8UrLZAbBPIo3X4cZ-3">
+          <mxGeometry y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6YVh8UrLZAbBPIo3X4cZ-3" source="6YVh8UrLZAbBPIo3X4cZ-4" target="6YVh8UrLZAbBPIo3X4cZ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="80" as="sourcePoint" />
+            <mxPoint x="625" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6YVh8UrLZAbBPIo3X4cZ-3" source="6YVh8UrLZAbBPIo3X4cZ-6" target="6YVh8UrLZAbBPIo3X4cZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-10" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YVh8UrLZAbBPIo3X4cZ-9">
+          <mxGeometry x="-0.1682" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6YVh8UrLZAbBPIo3X4cZ-3" source="6YVh8UrLZAbBPIo3X4cZ-5" target="6YVh8UrLZAbBPIo3X4cZ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="80" as="sourcePoint" />
+            <mxPoint x="625" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-12" value="callback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YVh8UrLZAbBPIo3X4cZ-11">
+          <mxGeometry x="0.016" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-13" value="OS重置密码：修改监控配置文件并reload的逻辑(参考)" style="swimlane;" vertex="1" parent="6YVh8UrLZAbBPIo3X4cZ-2">
+          <mxGeometry width="580" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6YVh8UrLZAbBPIo3X4cZ-14" target="6YVh8UrLZAbBPIo3X4cZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-19" value="put" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YVh8UrLZAbBPIo3X4cZ-18">
+          <mxGeometry x="0.0062" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-14" value="/clusterDeploy/instance/operate/init&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-8980" y="-3300" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-15" value="&lt;div&gt;方案 ：&lt;/div&gt;https://devops.ctcdn.cn/wone/pages/viewpage.action?pageId=130575947&lt;div&gt;&lt;br&gt;原型：&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;&lt;div&gt;https://devops.ctcdn.cn/wone/pages/viewpage.action?pageId=132128143&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontFamily=小赖字体 sc;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-7880" y="-3005" width="335" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-16" value="/clusterDeploy/instance/operate/state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-8610" y="-3310" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6YVh8UrLZAbBPIo3X4cZ-17" target="6YVh8UrLZAbBPIo3X4cZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-21" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6YVh8UrLZAbBPIo3X4cZ-20">
+          <mxGeometry x="0.2323" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-17" value="ClusterInstanceOperationLogVO.updateProps&lt;br&gt;&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-8860" y="-3110" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-22" value="/clusterDeploy/instance/operate/run&lt;br&gt;&lt;div data-lake_diagram_content_editor_data=&quot;true&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-8860" y="-2980" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6YVh8UrLZAbBPIo3X4cZ-17" target="6YVh8UrLZAbBPIo3X4cZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-8480" y="-3005" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-27" value="1. 入库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-8460" y="-3040" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-28" value="2. 调用流水线" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-8460" y="-2920" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-29" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-8200" y="-2940" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-32" value="配置同步" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-8180" y="-2970" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-33" value="各集群特有的操作" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=小赖字体 sc;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-8180" y="-2860" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6YVh8UrLZAbBPIo3X4cZ-48" value="一条流水线" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8190" y="-3005" width="280" height="225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
